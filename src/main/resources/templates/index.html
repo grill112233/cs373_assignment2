@@ -73,7 +73,7 @@ span.psw {
 </style>
 </head>
 <body>
-	<form class="w3-display-middle" action="/checkLogin" method="post">
+	<form class="w3-display-middle" th:action="@{/checkLogin}" method="post">
 		<div class="container">
 			<label for="uname"><b>Username</b></label> <input type="text"
 				placeholder="Enter Username" id="username" name="username" required>
