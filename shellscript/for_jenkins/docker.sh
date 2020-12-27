@@ -1,3 +1,3 @@
-cd /docker_compose/
+cd docker_compose
 docker-compose up --build
 
