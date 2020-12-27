@@ -1,6 +1,7 @@
 #!/bin/sh
 cd shellscript/for_jenkins/
-./docker.sh &
+./docker.sh
+cd ..
 cd ..
 cd shellscript/for_jenkins/
-./toTomca.sh
+./toTomcat.sh
