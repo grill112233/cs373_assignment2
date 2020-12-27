@@ -1,0 +1,20 @@
+
+
+== run server ==
+port8080: /usr/local/bin/jenkins
+port8181: brew services start jenkins-lts
+brew services restart jenkins-lts
+brew services stop jenkins-lts
+
+== password ==
+cfac5070419b4b709b32ea723fb36a1f
+
+== user ==
+user: grill
+pass: grill
+
+http://localhost:8181/
+
+java -jar jenkins.war --httpsPort=8888
+
+sudo defaults write /Library/Preferences/org.jenkins-ci httpPort 8181
