@@ -11,4 +11,4 @@
 - Step 8: Apply and Save
 - Step 9: Build Now and enjoy my project.
 
-## Thank you very much teacher Songsakdi for all skill.
+## Thank you very much teacher Songsakdi for everything.
